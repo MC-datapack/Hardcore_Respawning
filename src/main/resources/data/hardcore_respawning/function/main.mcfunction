@@ -1,0 +1,2 @@
+#load
+gamerule doImmediateRespawn true

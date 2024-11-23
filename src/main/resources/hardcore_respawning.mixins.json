@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "github.mcdatapack.hardcore_respawning.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

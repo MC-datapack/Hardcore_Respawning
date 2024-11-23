@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "hardcore_respawning",
+	"version": "${version}",
+	"name": "Hardcore Respawning",
+	"description": "Hardcore Respawning",
+	"authors": [
+		"Timo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"github.mcdatapack.hardcore_respawning.HardcoreRespawning"
+		],
+		"fabric-datagen": [
+			"github.mcdatapack.hardcore_respawning.HardcoreRespawningDataGenerator"
+		]
+	},
+	"mixins": [
+		"hardcore_respawning.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"breaks": {
+		"hardcore_respawning": "1.0.0"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"respawner": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "hardcore_respawning:respawner"
+					}
+				]
+			}
+		}
+	}
+}
