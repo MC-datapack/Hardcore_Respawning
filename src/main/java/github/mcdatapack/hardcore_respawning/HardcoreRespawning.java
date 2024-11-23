@@ -30,6 +30,7 @@ public class HardcoreRespawning implements ModInitializer {
 			.entries((displayContext, entries) -> entries.add(RESPAWNER))
 			.build());
 
+
 	@Override
 	public void onInitialize() {
 		logger.info("Loading Hardcore Respawning");
