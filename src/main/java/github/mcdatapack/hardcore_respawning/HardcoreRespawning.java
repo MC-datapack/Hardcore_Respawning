@@ -29,7 +29,7 @@ public class HardcoreRespawning implements ModInitializer {
 			.icon(RESPAWNER::getDefaultStack)
 			.entries((displayContext, entries) -> entries.add(RESPAWNER))
 			.build());
-	
+
 	@Override
 	public void onInitialize() {
 		logger.info("Loading Hardcore Respawning");
